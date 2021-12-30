@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+	<grants>
+	</grants>
+	<actions>
+		<!-- 관리자 액션 -->
+		<action name="dispEssetboxAdminConfig" type="view" menu_name="essetbox" admin_index="true" />
+		<action name="procEssetboxAdminInsertConfig" type="controller" />
+		<!-- 일반 액션 -->
+		<action name="dispEssetboxIndex" type="view" index="true" />
+	</actions>
+	<menus>
+		<menu name="essetbox" type="all">
+			<title xml:lang="ko">에셋 박스</title>
+		</menu>
+	</menus>
+</module>
